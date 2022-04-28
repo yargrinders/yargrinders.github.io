@@ -1,12 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Jaroslav Ju-Folio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="wrapper">
+        <div class="top_line">
+            <h2>Website Front End-Developer</h2>
+            <h2>2021</h2>
+            <div class="header__burger">
+                <span></span>
+            </div>
+        </div>
+        <header>
+            <section class="_container">
+                <div class="header__top">
+                    <div class="header__logo">                
+                        <span>Juschtschenko</span>
+                        <span>Jaroslav</span>
+                    </div>
+                    
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li><a href="#" class="header__link">Обо мне</a></li>
+                            <li><a href="#" class="header__link">Этапы работы</a></li>
+                            <li><a href="#technologies" class="header__link scroll-to">Технологии</a></li>
+                            <li><a href="#" class="header__link">Портфолио</a></li>
+                            <li><a href="#test" class="header__link scroll-to">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>     
+                <div class="header__body">
+                    <div class="header_main">
+                        <div>
+                            <h1>Привет, мир!</h1>
+                            <p>Меня зовут Ярослав Ющенко</p>
+                            <p>Я занимаюсь HTML-версткой сайтов</p>                            
+                            <div class="button">
+                                <form action="#"><button class="button_item">Скачать Резюме (PDF)</button></form>
+                                <form action="#"><button class="button_item">Смотреть портфолио</button></form>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="img/header_logo1.png" alt="Logo">
+                        </div>
+                    </div>
+                    <div class="header_footer">
+                        <div class="phone">
+                            <span>Телефон: <a href="tel:+380502354802">0502354802</a></span> <br>
+                            <span>Почта: &nbsp;<a href="mailto:Yargrindersp20@gmail.com"> Yargrindersp20@gmail.com</a></span>
+                        </div>
+                        <div class="social">
+                            <a href="https://www.behance.net/gallery/125584101/Web-Developer-Portfolio?tracking_source=search_projects_recommended%7C%20portfolio%20frontend">link 1</a>
+                            <a href="https://www.behance.net/gallery/130321807/Portfolio-Frontend-developer?tracking_source=search_projects_recommended%7Cfrontend">Link 2</a>
+                        </div>
+                    </div>                                    
+                </div> 
+            </section>
+        </header>
+        <main>
+            <section class="_container">
+                <h2 id="technologies" >Что я использую в процессе верстки</h2>
+                <div class="slider">
+                    <div class="slider__item">
+                        <img src="img/slider/html-logo.png" class="slider__img "alt="Html Css">
+                    </div>
+                    <div class="slider__item">
+                        <img src="img/slider/JavaScript.png" class="slider__img" alt="JavaScript">
+                    </div>
+                    <div class="slider__item">
+                        <img src="img/slider/jquery-logo.png" class="slider__img" alt="jQuery">
+                    </div>
+                    <div class="slider__item">
+                        <img src="img/slider/bootstrap-logo.png" class="slider__img" alt="Bootstrap">
+                    </div>
+                    <div class="slider__item">
+                        <img src="img/slider/figma.png" class="slider__img" alt="Figma">
+                    </div>
+                    <div class="slider__item">
+                        <img src="img/slider/photoshop-logo.png" class="slider__img" alt="Photoshop">
+                    </div>
+                    <div class="slider__item">
+                        <img src="img/slider/avocode-logo.png" class="slider__img" alt="Avocode">
+                    </div>     
+                    <div class="slider__item">
+                        <img src="img/slider/pixel-logo.png" class="slider__img" alt="Pixel Perfec">
+                    </div>        
+                    <div class="slider__item">
+                        <img src="img/slider/gulp-logo.png" class="slider__img" alt="Gulp">
+                    </div>   
+                </div>
+            </section>            
+        </main>
+        <footer>
+            <section class="_container">
+                <h2 id="test">Контакты</h2>
+                <div class="footer_card"> 
+                    <div class="footer_card__item">
+                        <div class="footer_card__text">
+                            <div>
+                                <span>Имя</span>
+                                <p>Ярослав Ющенко</p>
+                                <span>Email</span>
+                                <p>yargrindersp20@gmail.com</p>
+                            </div>
+                            <div>
+                                <span>Номер телефона</span>
+                                <p>0(50) 235 48 02</p>
+                                <span>Telegram</span>
+                                <p>0(50) 235 48 02</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_astronaut">
+                        <img src="img/footer_bg.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </footer>
+        <div class="bottom_line">
+            <h2>Website Front End-Developer</h2>
+            <h2>2021</h2>
+        </div>
+    </div>
     
+    <!-- Jquery 3.6.0 -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- Slick -->
+    <script src="js/slick.min.js"></script>
+    <!-- IBG / Menu Burger / Scroll-to -->
+    <script src="js/scrypt.js"></script>
 </body>
 </html>
