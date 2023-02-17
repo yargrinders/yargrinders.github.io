@@ -190,7 +190,7 @@ header {
         flex-direction: column;
     }
 }
-.button form {
+.button a {
     margin-right: 10px;
 }
 .header_main .button_item {
@@ -368,6 +368,9 @@ header {
 main {
     background-color: var(--c-white-2);
 }
+main > section:nth-child(1), section:nth-child(2) {
+    margin-bottom: 100px;
+}
 main h2 {
     color: var(--c-red);
     font-size: 30px;
@@ -522,6 +525,9 @@ footer h2::before {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+.footer_link-item {
+    color: #202124;
 }
 .footer_card__text div:nth-child(1),
 .footer_card__text div:nth-child(2) {
