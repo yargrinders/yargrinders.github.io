@@ -24,14 +24,13 @@
                         <span>Juschtschenko</span>
                         <span>Jaroslav</span>
                     </div>
-                    
                     <nav class="header__menu">
                         <ul class="header__list">
                             <li><a href="#" class="header__link">Über mich</a></li>
                             <li><a href="#git" class="header__link scroll-to">Main Git</a></li>
                             <li><a href="#technologies" class="header__link scroll-to">Technologie</a></li>
                             <li><a href="#p" class="header__link scroll-to">Portfolio</a></li>
-                            <li><a href="#test" class="header__link scroll-to">Contacts</a></li>
+                            <li><a href="#test" class="header__link scroll-to">Kontakte</a></li>
                         </ul>
                     </nav>
                 </div>     
@@ -95,44 +94,9 @@
             </section>
             <section class="_container">
                 <h2 id="p">Portfolio</h2>
-                <div class="portfolio">
-                    <div class="portfolio__card">
-                        <div class="portfolio__card-image">
-                                 <div class="card_image-top">   
-                                    <img src="img/cards_img/oA73KOL.png" alt="Logo">
-                                    <p><a href="#" target="_blank"></a></p>
-                                    <span>HTML CSS JS</span>
-                                 </div>                        
-                        </div>
-                    </div>
-                    <div class="portfolio__card">
-                        <div class="portfolio__card-image">
-                            <div class="card_image-top">   
-                               <img src="img/cards_img/Novaboard.png" alt="Novaboard">
-                               <p><a href="https://yargrinders.github.io/Final-work-wezom/" target="_blank"></a></p>
-                               <span>HTML CSS JS</span>
-                            </div>                        
-                        </div>
-                    </div>
-                    <div class="portfolio__card">
-                        <div class="portfolio__card-image">
-                            <div class="card_image-top">   
-                               <img src="img/cards_img/OKS.png" alt="OKS">
-                               <p><a href="https://yargrinders.github.io/kiosk/" target="_blank"></a></p>
-                               <span>HTML CSS VueJS jQuery</span>
-                            </div>                        
-                        </div>
-                    </div>
-                    <div class="portfolio__card">
-                        <div class="portfolio__card-image">
-                            <div class="card_image-top">   
-                               <img src="img/cards_img/Ch.png" alt="cheatsheet">
-                               <p><a href="https://yargrinders.github.io/cheatsheet/git.html" target="_blank"></a></p>
-                               <span>HTML SaSS Gulp Js</span>
-                            </div>                        
-                        </div>
-                    </div>
-                </div>
+                <div class="portfolio"></div>
+                <button id="openMoreButton">Mehr anzeigen</button>
+                <button id="closeCards" style="display: none;">Verbergen</button>
             </section>            
         </main>
         <footer>
@@ -170,11 +134,13 @@
         </p>
     </div>
     
-    <!-- Jquery 3.6.0 -->
+    <!-- Jquery 3.4.1 -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <!-- Slick -->
     <script src="js/slick.min.js"></script>
     <!-- IBG / Menu Burger / Scroll-to -->
     <script src="js/scrypt.js"></script>
+    <!-- Cards -->
+    <script src="js/cards.js"></script>
 </body>
 </html>
